@@ -5,6 +5,6 @@ end
 
 def batch_badge_creator(array)
   
-  array.each
+  array.each {element
   
 end
