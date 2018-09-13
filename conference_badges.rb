@@ -14,3 +14,5 @@ def assign_rooms(speakers)
   speakers.each_with_index{|element,index| output_array.push("Hello, #{element}! You'll be assigned to room #{(index + 1)}!")}
   return output_array
 end
+
+def printer
