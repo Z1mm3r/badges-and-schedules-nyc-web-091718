@@ -8,3 +8,5 @@ def batch_badge_creator(array)
   array.each {|element| output_array.push(badge_maker(element))}
   return output_array
 end
+
+def assign_rooms(speakers)
