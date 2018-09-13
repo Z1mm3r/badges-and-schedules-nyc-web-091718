@@ -20,6 +20,6 @@ def printer(speakers)
   room_array = assign_rooms(speakers)
   
   badge_array.each{|element| puts element}
-  room_array.eachP{|element| puts element}
+  room_array.each{|element| puts element}
   
 end
